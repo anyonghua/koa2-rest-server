@@ -1,0 +1,46 @@
+{
+  "AUTH": {
+    "default": {
+      "name": "*****",
+      "password": "*****"
+    },
+    "jwtTokenSecret": "*****"
+  },
+
+  "QINIU": {
+    "accessKey": "***************",
+    "secretKey": "***************",
+    "bucket": "***************",
+    "origin": "***************",
+    "uploadURL": "***************"
+  },
+
+  "QCLOUD": {
+    "AppId": "***************",
+    "SecretId": "***************",
+    "SecretKey": "***************",
+    "Region": "ap-guangzhou",
+    "Bucket": "***************",
+    "prefixURL": "***************"
+  },
+
+  "EMAIL": {
+    "account": "13661511521@163.com",
+    "password": "anson4649"
+  },
+
+  "AKISMET": {
+    "key": "*********",
+    "blog": "********"
+  },
+
+  "BAIDU": {
+    "site": "*********",
+    "token": "********"
+  },
+
+  "SPOTIFY": {
+    "clientId": "*********",
+    "clientSecret": "*********"
+  }
+}

@@ -7,7 +7,7 @@ module.exports = {
 
     // First application
     {
-      name      : 'littlewin.server',
+      name      : 'koa2-rest-server',
       script    : './bin/run',
       env: {
         COMMON_VARIABLE: 'true'

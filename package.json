@@ -3,7 +3,7 @@
   "version": "0.0.1",
   "private": true,
   "scripts": {
-    "dev": "NODE_ENV=development ./node_modules/.bin/nodemon bin/run ",
+    "dev": "cross-env NODE_ENV=development ./node_modules/.bin/nodemon bin/run ",
     "prd": "NODE_ENV=production node bin/run ",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -19,6 +19,7 @@
     "koa-convert": "^1.2.0",
     "koa-logger": "^1.3.1",
     "koa-router": "^7.0.0",
+    "log4js": "^3.0.5",
     "marked": "^0.3.6",
     "md5": "^2.2.1",
     "moment": "^2.18.1",

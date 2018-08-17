@@ -11,70 +11,78 @@
  * @production  生产环境配置
  */
 
+//console.log('__dirname=' + __dirname);
+
 // TODO 密钥信息存放在加密数据库
-let { AUTH, QINIU, QCLOUD, EMAIL, AKISMET, BAIDU, SPOTIFY } = require(process.env.HOME.concat('/key/littlewin-server'))
+let {AUTH, QINIU, QCLOUD, EMAIL, AKISMET, BAIDU, SPOTIFY} = require('./key/server.json')
 
 const APP = {
-  ROOT_PATH: __dirname,
-  LIMIT: 16
+    ROOT_PATH: __dirname,
+    LIMIT: 16
 }
 
 const INFO = {
-  title: 'littlewin.server',
-  version: '1.0.0',
-  author: 'littlewin',
-  site: 'https://littlewin.wang',
-  GA: 'UA-108992108-1',
-  with: ['Node.js', 'MongoDB', 'Koa2', 'Nginx']
+    title: 'koa2-rest-server',
+    version: '1.0.0',
+    author: 'anson',
+    site: 'https://www.1ktips.com',
+    GA: 'UA-60588613-1',
+    with: ['Node.js', 'MongoDB', 'Koa2', 'Nginx']
 }
 
 const GITHUB = {
-  account: 'littlewin-wang',
+    account: 'anyonghua',
 }
 
 const session = {
-  key: 'littlewin',
-  maxAge: 604800000,
-  overwrite: true,
-  signed: true,
+    key: 'KOA_REST_SESSION',
+    maxAge: 604800000,
+    overwrite: true,
+    signed: true,
 }
 
 module.exports = {
-  // 开发环境配置
-  development: {
-    AUTH,
-    APP,
-    INFO,
-    QINIU,
-    QCLOUD,
-    GITHUB,
-    session,
-    EMAIL,
-    AKISMET,
-    BAIDU,
-    SPOTIFY,
-    mongo: {
-      uri: 'mongodb://localhost:27017/littlewin-dev'
+    // 开发环境配置
+    development: {
+        AUTH,
+        APP,
+        INFO,
+        QINIU,
+        QCLOUD,
+        GITHUB,
+        session,
+        EMAIL,
+        AKISMET,
+        BAIDU,
+        SPOTIFY,
+        mongo: {
+            uri: 'mongodb://localhost:27017/koa2-rest-server-dev'
+        },
+        redis: {
+            uri: 'redis://localhost:6379/0'
+        },
+        port: '8090'
     },
-    port: '8090'
-  },
 
-  // 生产环境配置
-  production: {
-    AUTH,
-    APP,
-    INFO,
-    QINIU,
-    QCLOUD,
-    GITHUB,
-    session,
-    EMAIL,
-    AKISMET,
-    BAIDU,
-    SPOTIFY,
-    mongo: {
-      uri: 'mongodb://localhost:27017/littlewin-prd'
-    },
-    port: '8090'
-  }
+    // 生产环境配置
+    production: {
+        AUTH,
+        APP,
+        INFO,
+        QINIU,
+        QCLOUD,
+        GITHUB,
+        session,
+        EMAIL,
+        AKISMET,
+        BAIDU,
+        SPOTIFY,
+        mongo: {
+            uri: 'mongodb://localhost:27017/koa2-rest-server-prd'
+        },
+        redis: {
+            uri: 'redis://localhost:6379/1'
+        },
+        port: '8090'
+    }
 }

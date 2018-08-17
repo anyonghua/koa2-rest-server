@@ -18,7 +18,7 @@ const SiteMap = require('controllers/sitemap')
 const Like = require('controllers/like')
 const Event = require('controllers/event')
 const Message = require('controllers/message')
-const Spotify = require('controllers/spotify')
+//const Spotify = require('controllers/spotify')
 const GA = require('controllers/ga')
 const Music = require('controllers/music')
 const middleware = require('middlewares')
@@ -91,7 +91,7 @@ router
   .delete('/message/:id', middleware.verifyToken, Message.delete)
   .delete('/message', middleware.verifyToken, Message.deleteList)
 
-  .get('/spotify', Spotify.getToken)
+  //.get('/spotify', Spotify.getToken)
 
   .post('/ga', GA.post)
 
