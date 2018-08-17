@@ -1,6 +1,5 @@
 /**
  * @file 网站信息控制
- * @author littlewin(littlewin.wang@gmail.com)
  */
 
 const SiteModel = require('models/site.model')

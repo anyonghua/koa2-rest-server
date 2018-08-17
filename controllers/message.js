@@ -1,6 +1,5 @@
 /**
  * @file 个人消息控制
- * @author littlewin(littlewin.wang@gmail.com)
  */
 
 const MessageModel = require('models/message.model')

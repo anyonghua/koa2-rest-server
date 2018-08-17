@@ -1,6 +1,5 @@
 /**
  * @file 七牛上传控制
- * @author littlewin(littlewin.wang@gmail.com)
  */
 
 const qiniu = require('qn')

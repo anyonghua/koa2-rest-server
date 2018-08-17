@@ -1,6 +1,5 @@
 /**
  * @file 用户及权限数据模型
- * @author littlewin(littlewin.wang@gmail.com)
  */
 
 const mongoose = require('../db/mongodb').mongoose

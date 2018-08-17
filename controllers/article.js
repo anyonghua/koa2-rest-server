@@ -1,6 +1,5 @@
 /**
  * @file 文章控制
- * @author littlewin(littlewin.wang@gmail.com)
  */
 
 const ArticleModel = require('models/article.model')

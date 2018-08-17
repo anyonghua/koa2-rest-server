@@ -1,6 +1,5 @@
 /**
  * @file Github控制
- * @author littlewin(littlewin.wang@gmail.com)
  */
 
 const request = require('request')

@@ -1,6 +1,5 @@
 /**
  * @file 服务器状态回传
- * @author littlewin(littlewin.wang@gmail.com)
  */
 
 const osu = require('node-os-utils')

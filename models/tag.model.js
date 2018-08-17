@@ -1,6 +1,5 @@
 /**
  * @file 标签数据模型
- * @author littlewin(littlewin.wang@gmail.com)
  */
 
 const mongoose = require('../db/mongodb').mongoose

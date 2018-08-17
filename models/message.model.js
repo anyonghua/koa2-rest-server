@@ -1,6 +1,5 @@
 /**
  * @file 个人公告数据模型
- * @author littlewin(littlewin.wang@gmail.com)
  */
 
 const mongoose = require('../db/mongodb').mongoose

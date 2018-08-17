@@ -1,6 +1,5 @@
 /**
  * @file 标签控制
- * @author littlewin(littlewin.wang@gmail.com)
  */
 
 const TagModel = require('models/tag.model')

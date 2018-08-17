@@ -1,6 +1,5 @@
 /**
  * @file 音乐控制
- * @author littlewin(littlewin.wang@gmail.com)
  */
 
 const NeteseMusic = require('simple-netease-cloud-music')

@@ -1,6 +1,5 @@
 /**
  * @file spotify auth控制
- * @author littlewin(littlewin.wang@gmail.com)
  */
 
 const rp = require('request-promise')

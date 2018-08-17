@@ -1,6 +1,5 @@
 /**
  * @file 评论控制
- * @author littlewin(littlewin.wang@gmail.com)
  */
 
 const EventModel = require('models/event.model')

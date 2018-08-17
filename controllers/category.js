@@ -1,6 +1,5 @@
 /**
  * @file 分类控制
- * @author littlewin(littlewin.wang@gmail.com)
  */
 
 const CategoryModel = require('models/category.model')

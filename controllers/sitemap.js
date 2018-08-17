@@ -1,6 +1,5 @@
 /**
  * @file 网站地图控制
- * @author littlewin(littlewin.wang@gmail.com)
  */
 
 const fs = require('fs')

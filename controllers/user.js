@@ -1,6 +1,5 @@
 /**
  * @file 用户及权限控制
- * @author littlewin(littlewin.wang@gmail.com)
  */
 
 const jwt = require('jsonwebtoken')

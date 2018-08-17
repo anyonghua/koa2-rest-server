@@ -28,9 +28,9 @@ router
     ctx.body = {
       title: "koa2-rest-server API",
       version: "v1",
-      author: "littlewin.wang@gmail.com",
+      author: "anyonghua@gmail.com",
       site: "www.google.com",
-      guide: "https://github.com/littlewin-wang/littlewin.server/blob/master/README.md"
+      guide: "https://github.com/anyonghua/koa2-rest-server/blob/master/README.md"
     }
   })
 

@@ -1,6 +1,5 @@
 /**
  * @file token验证
- * @author littlewin(littlewin.wang@gmail.com)
  */
 
 const jwt = require('jsonwebtoken')
