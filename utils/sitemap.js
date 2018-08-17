@@ -1,6 +1,5 @@
 /**
  * @file 网站地图生成
- * @author littlewin(littlewin.wang@gmail.com)
  */
 
 const fs = require('fs')
@@ -21,7 +20,7 @@ const createSiteMap = async () => {
   ]
 
   let sitemap = sm.createSitemap({
-    hostname: site ? site.site_url : 'http://littlewin.wang',
+    hostname: site ? site.site_url : 'http://www.google.com',
     cacheTime: 600000,
     urls: [...pages]
   })

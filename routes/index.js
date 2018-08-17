@@ -1,6 +1,5 @@
 /**
  * @file routes
- * @author littlewin(littlewin.wang@gmail.com)
  */
 
 const config = require('config/env')[process.env.NODE_ENV || 'development']
@@ -27,10 +26,10 @@ const middleware = require('middlewares')
 router
   .get('/', (ctx) => {
     ctx.body = {
-      title: "littlewin.server API",
+      title: "koa2-rest-server API",
       version: "v1",
       author: "littlewin.wang@gmail.com",
-      site: "littlewin.wang",
+      site: "www.google.com",
       guide: "https://github.com/littlewin-wang/littlewin.server/blob/master/README.md"
     }
   })

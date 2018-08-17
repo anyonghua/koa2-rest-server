@@ -1,6 +1,6 @@
 {
-  "name": "littlewin.server",
-  "version": "0.1.1",
+  "name": "koa2-rest-server",
+  "version": "0.0.1",
   "private": true,
   "scripts": {
     "dev": "NODE_ENV=development ./node_modules/.bin/nodemon bin/run ",

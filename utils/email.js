@@ -1,6 +1,5 @@
 /**
  * @file 发送邮件控制
- * @author littlewin(littlewin.wang@gmail.com)
  */
 
 const config = require('config/env')[process.env.NODE_ENV || 'development']

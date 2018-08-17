@@ -1,6 +1,5 @@
 /**
  * @file redis管理模块
- * @author littlewin(littlewin.wang@gmail.com)
  */
 
 const redis = require('redis')

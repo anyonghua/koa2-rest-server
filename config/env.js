@@ -1,6 +1,5 @@
 /**
  * @file 项目配置文件
- * @author littlewin(littlewin.wang@gmail.com)
  *
  * @AUTH 默认账户
  * @mongo && port  数据库连接配置

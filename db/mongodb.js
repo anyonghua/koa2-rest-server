@@ -1,6 +1,5 @@
 /**
  * @file mongodb数据库管理模块
- * @author littlewin(littlewin.wang@gmail.com)
  */
 
 const mongoose = require('mongoose')
